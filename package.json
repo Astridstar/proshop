@@ -4,7 +4,7 @@
   "description": "MERN shopping cart app",
   "main": "server.js",
   "type": "module",
-    "scripts": {
+  "scripts": {
     "start": "node backend/server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon backend/server",
@@ -14,8 +14,10 @@
   "author": "Aranel",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
   },
   "devDependencies": {
     "concurrent": "^0.3.2",
